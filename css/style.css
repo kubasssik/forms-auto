@@ -1,0 +1,118 @@
+.wrapper {
+}
+.header {
+ background-color: rgb(15, 126, 126); 
+ color: white;
+}
+.header__blocks {
+ 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1vmin;
+    justify-items: center;
+    align-items: center;
+}
+.header__left {
+}
+
+
+.header__right {
+}
+.header__telephone {
+    font-size: 3vmin;
+}
+.main {
+    position: relative;
+}
+.__block_text{
+   
+}
+
+.main__blocks:nth-child(1){
+    background-color: var(--orange);
+}
+.main__block:nth-child(1){
+    padding: 1vmin;
+}
+.main__text {
+}
+.h2 {
+}
+.main__img {
+    width: 100%;
+    height: 100%;
+    background: url(../img/1634896974_5-bigfoto-name-p-stal-v-dizaine-doklad-8.png) center/cover no-repeat;
+}
+.main__form_blocks {
+    padding: 1vmin;
+}
+.__block_form{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    justify-items: center;
+    align-items: center;
+   
+}
+.main__form {
+    display: grid;
+    gap: .3rem;
+  
+}
+.main__form_label {
+}
+.star {
+    color: red;
+    font-size: 3vmin;
+}
+
+.star__green{
+    color: green;
+}
+.main__form_btn {
+}
+
+.input__help{
+    font-size:2vmin;
+    color: red;
+    
+}
+.main__form_input-style{
+    width: 100%;
+    box-shadow: 0 0 3vmin 0rem rgb(255, 187, 0) inset;
+    border: .4vmin solid rgb(255, 187, 0);
+    background: var(--orange_gradient);
+    font-size: 3vmin;
+    font-weight: bold;
+    padding: 2vmin 10vmin;
+    border-radius: 2vmin;
+    color: rgb(109, 109, 109);
+}
+
+.input__focus_green{
+    border: .4vmin solid green;
+}
+
+.main__form_input-style option{
+    color: black;
+}
+.main__block_ul {
+}
+.main__block_li {
+}
+.main__block_li-img {
+}
+.main__block_info-ul {
+}
+.main__block_info-li {
+}
+.footer {
+}
+.footer__blocks {
+}
+.footer__block_left {
+}
+
+.footer__block_right {
+}

@@ -1,0 +1,30 @@
+
+.forms__detail_blocks {
+position: absolute;
+}
+.forms__detail_block {
+    background-color: aquamarine;   
+    padding: 1vmin;
+}
+.forms__detail {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1vmin;
+}
+.forms__detail_span-help{
+font-size: 3vmin;
+}
+.main__form_input-style {
+}
+.main__form_help {
+}
+.star {
+}
+.main__form_input-file {
+    width: 100%;
+    background-color: blue;
+    font-size: 5vmin;
+    
+}
+.main__form_btn {
+}

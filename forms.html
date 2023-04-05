@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн оценка</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+
+<body>
+   
+    <div class="wrapper">
+        <div class="loading ">
+            <div class="loading__block"></div>
+            <p class="loading__p">Загрузка</p>
+        </div>
+        <header class="header">
+            <div class="header__blocks">
+                <div class="header__left">
+                    <h1 class="h1">Автовыкуп Крым</h1>
+                    <p class="p">Выкуп авто в Крыму</p>
+                </div>
+                <div class="header__right">
+                    <div class="header__telephone">+7(978)-000-00-00</div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="forms__detail_blocks">
+                <div class="forms__detail_block">
+                    <h6 class="h6">Онлайн оценка ТС</h6>
+                    <p class="p">Будьте внимательны при заполнении, точность заполнения ускоряет провести проверку.
+                        Время проверки 2-4 часа.</p>
+                    <form class="forms__detail" action="">
+                        <label>
+                            <div class="star">*</div>
+                            <input class="main__form_input-style" type="text" maxlength="17" placeholder="VIN код">
+                            <span class="input__help"></span>
+                        </label>
+                        <label>
+                            <span class="forms__detail_span-help">?</span>
+                            <div class="star">*</div>
+                            <input class="main__form_input-style" type="text" maxlength="9" id="number__automobile"
+                                placeholder="Гос. номер">
+                            <span class="input__help"></span>
+                            <div class="main__form_help display__none">
+                                <p>А000АА000, a000aa00 </p>
+                            </div>
+                        </label>
+
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="brand__automobile">
+                                <option value="">Марка</option>
+                            </select>
+                            <div class="main__form_input-list display__none"></div>
+                        </label>
+                        <label class="display__none">
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="model__automobile">
+                                <option value="">Модель</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">КПП</option>
+                                <option value="">Механика, МКПП</option>
+                                <option value="">Автомат, АКПП</option>
+                                <option value="">Робот</option>
+                                <option value="">Вариатор</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Год выпуска</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Тип кузова</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Тип двигателя</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Состояние кузова</option>
+                                <option value="">Повреждений нет</option>
+                                <option value="">Незначительные вмятины или коррозия</option>
+                                <option value="">Есть сквозная коррозия / необходимо окрас деталей без замены</option>
+                                <option value="">Требует замены / окраса 1-2 элементов кузова</option>
+                                <option value="">Требует замены / окраса 2-3 элементов кузова</option>
+                                <option value="">Требует замены / окраса 3-5 элементов кузова</option>
+                                <option value="">Требует замены / окраса больше 5 элементов кузова</option>
+                                <option value="">Требует окраса, ремонта всего кузова</option>
+                                <option value="">Не подлежит ремонту / на запчасти</option>
+                                <option value="">Утопленник</option>
+                                <option value="">Сгоревший</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Пробег</option>
+                                <option value="">до 50000</option>
+                                <option value="">от 50000 до 100000</option>
+                                <option value="">от 100000 до 150000</option>
+                                <option value="">от 150000 до 200000</option>
+                                <option value="">от 200000 до 300000</option>
+                                <option value="">свыше 300000</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Привод</option>
+                                <option value="">Задний</option>
+                                <option value="">Полный</option>
+                                <option value="">Передний</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Документы</option>
+                                <option value="">Оригинал все</option>
+                                <option value="">Дубль</option>
+                                <option value="">Нет ПТС</option>
+                                <option value="">Нет СТС</option>
+                                <option value="">Нет никаких</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">Юридические проблемы</option>
+                                <option value="">Без проблем</option>
+                                <option value="">Кредитная - без погашения</option>
+                                <option value="">С запретом - без погашения</option>
+                                <option value="">Лизинговая - без погашения</option>
+                                <option value="">Наследство (без вступления)</option>
+                                <option value="">Наследство (вступили)</option>
+                                <option value="">Искажена маркировка VIN или № ДВС</option>
+                                <option value="">Нерастаможенная</option>
+                                <option value="">Кредитная - продам с погашением</option>
+                                <option value="">Запрет - продам с погашением</option>
+                                <option value="">Лизинговая - с погашением</option>
+                                <option value="">Нерастаможенная ЛНР / ДНР</option>
+                            </select>
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <select class="main__form_input-style" name="" id="">
+                                <option value="">История</option>
+                                <option value="">Один владелец</option>
+                                <option value="">Два владельца</option>
+                                <option value="">Больше двух владельцев</option>
+                            </select>
+                        </label>
+                        <label>
+                            <span class="forms__detail_span-help">?</span>
+                            <p>Вид спереди</p>
+                            <div class="star">*</div>
+                            <input class="main__form_input-file" type="file">
+                            <div class="main__form_help display__none">
+                                <p>Гос. номер, должен просматриваться</p>
+                            </div>
+                        </label>
+                        <label>
+                            <span class="forms__detail_span-help">?</span>
+                            <p>Вид сзади</p>
+                            <div class="star">*</div>
+                            <input class="main__form_input-file" type="file">
+                            <div class="main__form_help display__none">
+                                <p>Гос. номер, должен просматриваться</p>
+                            </div>
+                        </label>
+                        <label>
+                            <p>Вид слева</p>
+                            <div class="star">*</div>
+                            <input class="main__form_input-file" type="file">
+                        </label>
+                        <label>
+                            <p>Вид справа</p>
+                            <div class="star">*</div>
+                            <input class="main__form_input-file" type="file">
+                        </label>
+                        <label>
+                            <p>Салон спереди</p>
+                            <div class="star">*</div>
+                            <input class="main__form_input-file" type="file">
+                        </label>
+                        <label>
+                            <p>Салон сзади</p>
+                            <div class="star">*</div>
+                            <input class="main__form_input-file" type="file">
+                        </label>
+
+
+                        <label>
+                            <div class="star">*</div>
+                            <input class="main__form_input-style" type="text" placeholder="Имя">
+                        </label>
+                        <label>
+                            <div class="star">*</div>
+                            <input class="main__form_input-style" type="text" placeholder="Телефон">
+                        </label>
+                        <button class="main__form_btn">Оценить</button>
+
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(92872937, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/92872937" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</body>
+<script src="./js/index-forms.js" type="module"></script>
+
+</html>
